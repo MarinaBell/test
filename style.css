@@ -802,7 +802,7 @@ iframe {
 @media (max-width: 768px) {
     .questions {
     max-width: 680px;
-    height: 620px;
+    height: 640px;
     margin: 0 auto;
   }
 }
@@ -810,7 +810,7 @@ iframe {
 @media (max-width: 375px) {
     .questions {
     max-width: 355px;
-    height: 750px;
+    height: 800px;
     margin: 0 auto;
   }
 }
@@ -1056,15 +1056,24 @@ button:hover {
     max-width: 1140px;
     height: 80px;
     padding: 0 23px;
-    transition: 0.3s;
+  
 }
 
 .hide-container_open {
     max-width: 1140px;
     height: 80px;
     padding: 0 23px;
-    transition: 0.3s;
+   
 }
+
+@media (max-width: 375px) {
+    .hide-container_open {
+        max-width: 1140px;
+        height: 80px;
+        padding: 0 23px;
+        padding-left: 10px;
+    }
+    }
 
 .hide-container2 {
     display: none;
