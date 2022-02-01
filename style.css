@@ -802,7 +802,7 @@ iframe {
 @media (max-width: 768px) {
     .questions {
     max-width: 680px;
-    height: 640px;
+    height: 645px;
     margin: 0 auto;
   }
 }
@@ -810,7 +810,7 @@ iframe {
 @media (max-width: 375px) {
     .questions {
     max-width: 355px;
-    height: 800px;
+    height: 810px;
     margin: 0 auto;
   }
 }
