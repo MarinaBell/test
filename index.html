@@ -36,9 +36,7 @@
         </header>
         <main>
             <section class="hero">
-                <div class="hero_info">
-                    
-                </div>
+                <!-- <img class="hero1" src="./assets/img/hero.jpg" alt=""> -->
             </section>
             <section class="announcements">
                 <div class="announncements-container">
@@ -116,10 +114,11 @@
                     <h2>ДЕНЬ ОТКРЫТЫХ ДВЕРЕЙ</h2>
                 </div>
                 <div class="openDay-container">
+                    <div class="yellowTriangle"></div>
                     <button class="play"></button>
                     <div class="round"></div>
-                            <div class="video-overlay"></div>
-                            <iframe width="1226" height="520" class = "video" src="https://www.youtube.com/embed/XxHjYVFBO5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="video-overlay"><img class="video-overlay" src="./assets/img/video-picture.jpg" alt=""></div>
+                            <iframe class = "video" src="https://www.youtube.com/embed/XxHjYVFBO5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
                 </div>
@@ -131,7 +130,8 @@
                     <div class="blackline"></div>
                     <div class="question-container">
                         <p class="question">Как поступить в СГИК, имея среднее профессиональное образование?</p>
-                        <div class="plus">
+                        <div class="plus-container">
+                            <div class="plus"></div>
                             <div class="plus-line"></div>
                         </div>
                     </div>
@@ -141,8 +141,9 @@
                     <div class="blackline"></div>
                     <div class="question-container">
                         <p class="question2">Есть ли ограничения по возрасту для поступления на творческие специальности?</p>
-                        <div class="plus">
-                            <div class="plus-line"></div>
+                        <div class="plus-container2">
+                            <div class="plus2"></div>
+                            <div class="plus-line2"></div>
                         </div>
                     </div>
                     <div class="hide-container2">
@@ -151,8 +152,9 @@
                     <div class="blackline"></div>
                     <div class="question-container">
                         <p class="question2">Как проходят вступительные испытания с применением дистанционных технологий?</p>
-                        <div class="plus">
-                            <div class="plus-line"></div>
+                        <div class="plus-container3">
+                            <div class="plus3"></div>
+                            <div class="plus-line3"></div>
                         </div>
                     </div>
                     <div class="hide-container3">
@@ -161,8 +163,9 @@
                     <div class="blackline"></div>
                     <div class="question-container-last">
                         <p class="question2">Что такое «электронная форма подачи документов»?</p>
-                        <div class="plus">
-                            <div class="plus-line"></div>
+                        <div class="plus-container4">
+                            <div class="plus4"></div>
+                            <div class="plus-line4"></div>
                         </div>
                     </div>
                     <div class="hide-container4">
@@ -189,10 +192,11 @@
                             <input type="email" id="email-input" class="inner-text">
                             <textarea class="textarea" placeholder="Ваше сообщение"></textarea>
                             <div class="agree">
-                                <div class="rect"></div>
-                                <p class = "agree-text">согласие на обработку персональных данных</p>
+                                <div class="forTextCheckBox">
+                                    <div class="rect"></div>
+                                    <p class = "agree-text">согласие на обработку персональных данных</p>
+                                </div>
                                 <button class="send">Отправить</button>
-
                             </div>
         
                         </form>
@@ -234,6 +238,6 @@
         </main>
 
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
