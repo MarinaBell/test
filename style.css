@@ -272,14 +272,20 @@ body {
 @media (max-width: 768px) {
     .hero {
         max-width: 768px;
+        background: url(./assets/img/hero768.jpg) no-repeat center;
+    background-size: cover;
         margin: 0 auto;
+        height: 436px;
     }
   }
 
   @media (max-width: 375px) {
     .hero {
         max-width: 375px;
+        background: url(./assets/img/hero375.jpg) no-repeat center;
+    background-size: cover;
         margin: 0 auto;
+        height: 213px;
     }
   }
 
